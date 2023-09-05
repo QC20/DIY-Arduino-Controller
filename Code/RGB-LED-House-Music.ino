@@ -1,35 +1,48 @@
 #include <avr/io.h>
+#include <avr/interrupt.h>
 #include <util/delay.h>
 
-#define RED_PIN PB1
-#define GREEN_PIN PB2
-#define BLUE_PIN PB3
+#define BLUE_LED PB1
+#define RED_LED PB2
+#define WHITE_LED PB3
 
-#define BEAT_DELAY 234 // Approx. 128 BPM (milliseconds)
+volatile uint8_t beat_count = 0;
 
-void blinkLED(uint8_t pin, uint8_t delay_ms) {
-    PORTB |= (1 << pin); // Turn on the LED
-    _delay_ms(delay_ms);
-    PORTB &= ~(1 << pin); // Turn off the LED
-    _delay_ms(delay_ms);
+ISR(TIMER0_COMPA_vect) {
+    beat_count++;
+}
+
+void initTimer() {
+    TCCR0A = (1 << WGM01); // CTC mode
+    OCR0A = 125;           // Set the compare value for 128 BPM
+    TIMSK0 = (1 << OCIE0A); // Enable timer compare interrupt
+    TCCR0B = (1 << CS02);   // Prescaler of 256, 16MHz / 256 = 62500 Hz
 }
 
 int main() {
-    // Set PB1 (RED_PIN), PB2 (GREEN_PIN), and PB3 (BLUE_PIN) as output for LEDs
-    DDRB |= (1 << RED_PIN) | (1 << GREEN_PIN) | (1 << BLUE_PIN);
+    DDRB |= (1 << BLUE_LED) | (1 << RED_LED) | (1 << WHITE_LED);
+    initTimer();
+    sei(); // Enable global interrupts
 
     while (1) {
-        // Kick (Red) on every beat
-        blinkLED(RED_PIN, BEAT_DELAY);
+        if (beat_count % 2 == 0) {
+            // Blue LED on kick
+            PORTB |= (1 << BLUE_LED);
+            _delay_ms(50); // Adjust the delay for visual effect
+            PORTB &= ~(1 << BLUE_LED);
+        }
 
-        // Hi-hat (White) on every beat
-        blinkLED(RED_PIN, BEAT_DELAY / 2);
-        blinkLED(GREEN_PIN, BEAT_DELAY / 2);
+        if (beat_count % 4 == 0) {
+            // Red LED on snare
+            PORTB |= (1 << RED_LED);
+            _delay_ms(50); // Adjust the delay for visual effect
+            PORTB &= ~(1 << RED_LED);
+        }
 
-        // Snare (Blue) on every second beat
-        _delay_ms(BEAT_DELAY / 2); // Delay half a beat
-        blinkLED(BLUE_PIN, BEAT_DELAY);
-        _delay_ms(BEAT_DELAY / 2); // Delay half a beat
+        // White LED on every beat (hi-hat)
+        PORTB |= (1 << WHITE_LED);
+        _delay_ms(50); // Adjust the delay for visual effect
+        PORTB &= ~(1 << WHITE_LED);
     }
 
     return 0;
