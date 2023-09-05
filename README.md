@@ -5,7 +5,6 @@
 The DIY Arduino Board project is designed for electronics experts, offering a versatile and adaptable microcontroller platform. Originally, the Arduino platform was created to reduce the cost of microcontrollers in educational settings and make electronics and programming accessible to users with varying levels of technical expertise. This project provides a DIY Arduino board that closely resembles the classic Arduino Uno but with a slimmer profile and enhanced hardware flexibility.
 
 ### Features
-
 - **Adaptability:** The DIY Arduino board allows you to customize the input voltage (ranging from 2.7V to 5.5V) and crystal oscillator frequency (0-16MHz) to match the specific requirements of your projects.
 - **Low Power Consumption:** With no built-in LEDs or regulators, this board is exceptionally well-suited for low-power applications, extending battery life and minimizing power overhead.
 - **Portability:** The board's wide voltage range enables the use of LiPo batteries as a power source, making it an excellent choice for portable and battery-operated projects.
