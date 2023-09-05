@@ -10,7 +10,6 @@ The DIY Arduino Board project is designed for electronics experts, offering a ve
 - **Comprehensive Features:** It offers all the features of the ATmega328P chip, including SPI, I2C, USART, PWM, ADC, interrupts, timers, and more.
 
 ## Getting Started
-
 Follow these steps to assemble and use the DIY Arduino board:
 
 ### Assembling the DIY Arduino
