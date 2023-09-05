@@ -13,7 +13,6 @@ The DIY Arduino Board project is designed for electronics experts, offering a ve
 Follow these steps to assemble and use the DIY Arduino board:
 
 ### Assembling the DIY Arduino
-
 1. Gather the required components listed in the "Parts used for this setup" section.
 2. Assemble the DIY Arduino board using the provided components.
 3. Optionally, use an Arduino Uno Rev3 board as a USB to TTL adapter (or any compatible adapter) for programming and communication.
