@@ -18,7 +18,6 @@ Follow these steps to assemble and use the DIY Arduino board:
 3. Optionally, use an Arduino Uno Rev3 board as a USB to TTL adapter (or any compatible adapter) for programming and communication.
 
 ### Uploading Code
-
 1. Connect the DIY Arduino board to your computer through the USB to TTL adapter.
 2. Open the Arduino IDE and select "Arduino/Genuino Uno" as the board and the Uno Rev3 as the port.
 3. Upload your code to the DIY Arduino board, following the standard Arduino Uno procedure.
