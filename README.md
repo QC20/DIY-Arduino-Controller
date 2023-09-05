@@ -26,7 +26,6 @@ Follow these steps to assemble and use the DIY Arduino board:
 For your convenience, we offer a comprehensive DIY Arduino Kit that includes all the necessary components for this project. It's an excellent choice for those who want to get started quickly. If you already own an Arduino Uno Rev3 board, you can choose the kit without the Uno board.
 
 ## Usage and Applications
-
 The DIY Arduino board's adaptability and low power consumption make it ideal for a wide range of applications, including but not limited to:
 
 - **Internet of Things (IoT) Networks:** Build low-power IoT devices that can operate for extended periods.
