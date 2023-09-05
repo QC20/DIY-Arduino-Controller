@@ -33,14 +33,9 @@ The DIY Arduino board's adaptability and low power consumption make it ideal for
 - **Wireless Device Controllers:** Design custom wireless controllers for various devices and systems.
 
 ## Contribution
-
 We welcome contributions from the community to enhance this project. If you have ideas for improvements or would like to report issues, please submit them through GitHub Issues. Pull requests are also encouraged.
 
 ## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 **Note:** For a more comprehensive historical perspective on Arduino, please refer to [this source](https://example.com/arduino-history).
 
