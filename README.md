@@ -1,7 +1,6 @@
 # DIY Arduino Board README
 
-![IMG_5621-kopi](https://github.com/QC20/DIY-Arduino-Controller/assets/36644388/a63e818e-8b1e-4403-92b6-f8ce9ff45356)
-
+![IMG_5613-kopi](https://github.com/QC20/DIY-Arduino-Controller/assets/36644388/41f90000-00ac-4857-8eb6-018fbee8a337)
 
 ## Introduction
 The DIY Arduino Board project is designed for electronics experts, offering a versatile and adaptable microcontroller platform. Originally, the Arduino platform was created to reduce the cost of microcontrollers in educational settings and make electronics and programming accessible to users with varying levels of technical expertise. This project provides a DIY Arduino board that closely resembles the classic Arduino Uno but with a slimmer profile and enhanced hardware flexibility.
@@ -40,8 +39,9 @@ We welcome contributions from the community to enhance this project. If you have
 
 ## License
 
-![IMG_5613-kopi](https://github.com/QC20/DIY-Arduino-Controller/assets/36644388/41f90000-00ac-4857-8eb6-018fbee8a337)
-
 **Note:** For a more comprehensive historical perspective on Arduino, please refer to [this source](https://example.com/arduino-history).
 
 This README serves as an introduction to the DIY Arduino board, providing comprehensive information and a starting point for exploring its potential. Future entries will delve into advanced topics, including interfacing with various sensors using different protocols (I2C, SPI, UART) and in-depth investigations into low-power modes and power consumption.
+
+![IMG_5621-kopi](https://github.com/QC20/DIY-Arduino-Controller/assets/36644388/a63e818e-8b1e-4403-92b6-f8ce9ff45356)
+
