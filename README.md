@@ -40,6 +40,9 @@ We welcome contributions from the community to enhance this project. If you have
 
 ## License
 
+![IMG_5613](https://github.com/QC20/DIY-Arduino-Controller/assets/36644388/d8b288a8-0576-42f7-97fb-07655e313ff8)
+
+
 **Note:** For a more comprehensive historical perspective on Arduino, please refer to [this source](https://example.com/arduino-history).
 
 This README serves as an introduction to the DIY Arduino board, providing comprehensive information and a starting point for exploring its potential. Future entries will delve into advanced topics, including interfacing with various sensors using different protocols (I2C, SPI, UART) and in-depth investigations into low-power modes and power consumption.
