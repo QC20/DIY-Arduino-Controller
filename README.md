@@ -40,8 +40,7 @@ We welcome contributions from the community to enhance this project. If you have
 
 ## License
 
-![IMG_5613](https://github.com/QC20/DIY-Arduino-Controller/assets/36644388/d8b288a8-0576-42f7-97fb-07655e313ff8)
-
+![IMG_5613-kopi](https://github.com/QC20/DIY-Arduino-Controller/assets/36644388/41f90000-00ac-4857-8eb6-018fbee8a337)
 
 **Note:** For a more comprehensive historical perspective on Arduino, please refer to [this source](https://example.com/arduino-history).
 
