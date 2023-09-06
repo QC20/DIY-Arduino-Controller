@@ -1,5 +1,8 @@
 # DIY Arduino Board README
 
+![IMG_5621](https://github.com/QC20/DIY-Arduino-Controller/assets/36644388/831ad69e-a23f-482e-a058-b55bfcaffb05)
+
+
 ## Introduction
 The DIY Arduino Board project is designed for electronics experts, offering a versatile and adaptable microcontroller platform. Originally, the Arduino platform was created to reduce the cost of microcontrollers in educational settings and make electronics and programming accessible to users with varying levels of technical expertise. This project provides a DIY Arduino board that closely resembles the classic Arduino Uno but with a slimmer profile and enhanced hardware flexibility.
 
