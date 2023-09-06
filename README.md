@@ -1,6 +1,6 @@
 # DIY Arduino Board README
 
-![IMG_5621](https://github.com/QC20/DIY-Arduino-Controller/assets/36644388/831ad69e-a23f-482e-a058-b55bfcaffb05)
+![IMG_5621-kopi](https://github.com/QC20/DIY-Arduino-Controller/assets/36644388/a63e818e-8b1e-4403-92b6-f8ce9ff45356)
 
 
 ## Introduction
