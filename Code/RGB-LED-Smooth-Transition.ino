@@ -2,7 +2,8 @@
 #include <avr/interrupt.h>
 #include <util/delay.h>
 
-#define PWM_DELAY_MS 10
+// change this value to adjust the speed of the smooth color transitions
+#define PWM_DELAY_MS 6
 
 void initPWM() {
     // Set PB1 (OC1A), PB2 (OC1B), and PB3 (OC2A) as output for PWM
@@ -40,22 +41,28 @@ int main() {
         }
 
         // Smooth transition from red to green (PB1 to PB2)
-        for (int i = 255; i >= 0; i--) {
-            OCR1A = i;
-            OCR1B = 255 - i;
+        for (int i = 0; i <= 255; i++) {
+            OCR1A = 255 - i;
+            OCR1B = i;
             _delay_ms(PWM_DELAY_MS);
         }
 
         // Smooth transition from green to blue (PB2 to PB3)
         for (int i = 0; i <= 255; i++) {
-            OCR1B = i;
-            OCR2A = 255 - i;
+            OCR1B = 255 - i;
+            OCR2A = i;
             _delay_ms(PWM_DELAY_MS);
         }
 
         // Smooth transition from blue to off (PB3)
-        for (int i = 255; i >= 0; i--) {
-            OCR2A = i;
+        for (int i = 0; i <= 255; i++) {
+            OCR2A = 255 - i;
+            _delay_ms(PWM_DELAY_MS);
+        }
+
+        // Smooth transition from off to red (PB1)
+        for (int i = 0; i <= 155; i++) {
+            OCR1A = i + 100;
             _delay_ms(PWM_DELAY_MS);
         }
     }
