@@ -47,3 +47,6 @@ This README serves as an introduction to the DIY Arduino board, providing compre
 
 ![IMG_5621-kopi](https://github.com/QC20/DIY-Arduino-Controller/assets/36644388/a63e818e-8b1e-4403-92b6-f8ce9ff45356)
 ![IMG_5613-kopi](https://github.com/QC20/DIY-Arduino-Controller/assets/36644388/41f90000-00ac-4857-8eb6-018fbee8a337)
+
+
+
