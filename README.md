@@ -1,5 +1,5 @@
-# DIY Arduino Board README
-
+# DIY Arduino Chip-Board Controller
+Learn to build (tiny) projects with only the ATmega328P chip from your Arduino Uno!
 
 https://github.com/QC20/DIY-Arduino-Controller/assets/36644388/49bd0a27-fe91-4252-955e-793b4f92b37a
 
