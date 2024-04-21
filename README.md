@@ -23,9 +23,6 @@ Follow these steps to assemble and use the DIY Arduino board:
 2. Open the Arduino IDE and select "Arduino/Genuino Uno" as the board and the Uno Rev3 as the port.
 3. Upload your code to the DIY Arduino board, following the standard Arduino Uno procedure.
 
-## DIY Arduino Kit
-For your convenience, we offer a comprehensive DIY Arduino Kit that includes all the necessary components for this project. It's an excellent choice for those who want to get started quickly. If you already own an Arduino Uno Rev3 board, you can choose the kit without the Uno board.
-
 ## Usage and Applications
 The DIY Arduino board's adaptability and low power consumption make it ideal for a wide range of applications, including but not limited to:
 
